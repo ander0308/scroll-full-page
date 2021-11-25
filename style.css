@@ -15,9 +15,12 @@ h1 {
 }
 
 .container {
-  scroll-snap-type: y mandatory;
+  /* scroll-snap-type: x mandatory;*/ /*PARA FAZER HORIZONTAL*/
+  scroll-snap-type: y mandatory; /*O VALOR 'proximity' É UTILIZADO PARA FIXA QUANDO ESTIVER PERTO DA BORDA*/
+  /* overflow-x: hidden; */ /*PARA FAZER HORIZONTAL*/
   overflow-y: scroll;
   height: 100vh;
+  /* display: flex; */ /*PARA FAZER HORIZONTAL*/
 }
 
 section {
@@ -26,6 +29,7 @@ section {
   justify-content: center;
   align-items: center;
   scroll-snap-align: start;
+  /* flex: none; */ /*PARA FAZER HORIZONTAL*/
 }
 
 .one {
