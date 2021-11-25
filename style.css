@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 3.6rem;
+  color: white;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+.one {
+  background-color: #4263eb;
+}
+
+.two {
+  background-color: #f59f00;
+}
+
+.three {
+  background-color: #9775fa;
+}
+.four {
+  background-color: #40c057;
+}
